@@ -100,10 +100,10 @@ TextureImporter:
       name: Idle_Down_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 16
         y: 21
-        width: 12
-        height: 23
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,10 +122,10 @@ TextureImporter:
       name: Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 67
+        x: 64
         y: 21
-        width: 12
-        height: 22
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 115
+        x: 112
         y: 21
-        width: 12
-        height: 22
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 163
+        x: 160
         y: 21
-        width: 12
-        height: 23
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: Idle_Down_4
       rect:
         serializedVersion: 2
-        x: 211
+        x: 208
         y: 21
-        width: 12
-        height: 23
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Idle_Down_5
       rect:
         serializedVersion: 2
-        x: 259
+        x: 256
         y: 21
-        width: 12
-        height: 22
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: Idle_Down_6
       rect:
         serializedVersion: 2
-        x: 307
+        x: 304
         y: 21
-        width: 12
-        height: 22
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Idle_Down_7
       rect:
         serializedVersion: 2
-        x: 355
+        x: 352
         y: 21
-        width: 12
-        height: 23
+        width: 16
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,7 +286,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":11.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Idle_Down_0: -423334412
       Idle_Down_1: -590729728

@@ -10,6 +10,10 @@ public class MovementHandler : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Animator animator;
+[SerializeField] private SpriteRenderer spriteRenderer;
+
+
+
     private Vector2 lastMoveDirection = Vector2.down;
     void Start()
     {
@@ -39,6 +43,15 @@ public class MovementHandler : MonoBehaviour
         if (moveInput.sqrMagnitude > 0.01f)
         {
             lastMoveDirection = moveInput;
+
+            if (moveInput.x > 0.01f)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else if (moveInput.x < -0.01f)
+            {
+                spriteRenderer.flipX = false;
+            }
         }
         animator.SetFloat("LastMoveX", lastMoveDirection.x);
         animator.SetFloat("LastMoveY", lastMoveDirection.y);
